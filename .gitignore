@@ -17,11 +17,7 @@ data/twins/
 data/memory/
 *.db
 
-# Model files (large — should be stored in releases or LFS)
-models/*.json
-models/preprocessor/
-
-# Node / React
+# Node / React — exclude node_modules ONLY
 metatwin-frontend/node_modules/
 metatwin-frontend/build/
 metatwin-frontend/.env

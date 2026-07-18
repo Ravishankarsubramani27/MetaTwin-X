@@ -1,0 +1,74 @@
+/* ── MetaTwin-X Print / PDF Styles ── */
+@media print {
+  /* Hide everything except the report */
+  body { background: #fff !important; color: #000 !important; }
+
+  /* Hide nav, sidebar, toast, buttons */
+  header,
+  .tab-bar,
+  button:not(.print-keep),
+  [class*="TopBar"],
+  [class*="LeftPanel"],
+  [class*="RightPanel"],
+  [class*="BottomSection"],
+  [class*="CenterPanel"],
+  [class*="toast"],
+  [class*="btn-neon"],
+  .status-dot,
+  nav { display: none !important; }
+
+  /* Report content fills the page */
+  #report-printable {
+    display: block !important;
+    width: 100%;
+    margin: 0;
+    padding: 24px;
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 11pt;
+    color: #111;
+  }
+
+  /* Glass cards become plain white boxes */
+  .glass-card,
+  [class*="glass"] {
+    background: #fff !important;
+    border: 1px solid #ddd !important;
+    box-shadow: none !important;
+    backdrop-filter: none !important;
+    border-radius: 6px !important;
+    page-break-inside: avoid;
+  }
+
+  /* Section headers */
+  h1, h2, h3 { color: #1e3a5f; page-break-after: avoid; }
+
+  /* Tables */
+  table { width: 100%; border-collapse: collapse; }
+  th { background: #e8f4fd !important; color: #1e3a5f !important; }
+  th, td { border: 1px solid #ccc; padding: 6px 10px; font-size: 10pt; }
+  tr:nth-child(even) { background: #f8fbff !important; }
+
+  /* Risk colors — keep them in print */
+  [style*="color: #10b981"] { color: #0a7c57 !important; }
+  [style*="color: #ef4444"] { color: #c0392b !important; }
+  [style*="color: #f59e0b"] { color: #b7770d !important; }
+  [style*="color: #38bdf8"] { color: #1a6fa0 !important; }
+
+  /* Progress bars */
+  .progress-bar { border: 1px solid #ccc !important; }
+  .progress-fill { print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+
+  /* Page breaks */
+  .page-break { page-break-before: always; }
+
+  /* Watermark */
+  @page {
+    size: A4;
+    margin: 18mm 15mm;
+    @bottom-center {
+      content: "MetaTwin-X — AI-Powered Digital Health Twin — Confidential";
+      font-size: 8pt;
+      color: #999;
+    }
+  }
+}
