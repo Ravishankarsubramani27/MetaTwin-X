@@ -1,0 +1,26 @@
+{
+  "exported_at": "2026-05-18T22:00:00+00:00",
+  "inputs": {
+    "age": 45,
+    "alt_enzyme": 28,
+    "ast_enzyme": 24,
+    "bmi": 26.5,
+    "daily_step_count": 7500,
+    "dietary_quality_score": 6,
+    "diastolic_bp": 82,
+    "fasting_glucose": 98,
+    "hdl_cholesterol": 52,
+    "ldl_cholesterol": 118,
+    "serum_creatinine": 0.95,
+    "sex": "male",
+    "sleep_duration": 7.0,
+    "systolic_bp": 122,
+    "total_cholesterol": 195
+  },
+  "risk_scores": {
+    "heart": 0.12,
+    "kidney": 0.08,
+    "liver": 0.09
+  },
+  "schema_version": "1.0"
+}

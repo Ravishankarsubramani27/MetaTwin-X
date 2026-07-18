@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.env
+venv/
+.venv/
+env/
+dist/
+build/
+*.egg
+
+# Database & data files (don't commit patient data)
+data/metatwin.db
+data/twins/
+data/memory/
+*.db
+
+# Model files (large — should be stored in releases or LFS)
+models/*.json
+models/preprocessor/
+
+# Node / React
+metatwin-frontend/node_modules/
+metatwin-frontend/build/
+metatwin-frontend/.env
+metatwin-frontend/.env.local
+
+# IDE
+.vscode/settings.json
+.idea/
+*.suo
+*.user
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Docker
+.dockerignore
+
+# Keep data folder structure
+!data/.gitkeep
+!data/twins/.gitkeep
+!data/memory/.gitkeep

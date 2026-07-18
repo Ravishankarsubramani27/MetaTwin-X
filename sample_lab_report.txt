@@ -1,0 +1,63 @@
+================================================================================
+                    COMPREHENSIVE HEALTH REPORT
+                    City Diagnostic Centre
+================================================================================
+
+Patient Name  : John Doe
+Age           : 52 Years
+Sex           : Male
+Date          : 18-May-2026
+Report No     : CDL-2026-00847
+
+--------------------------------------------------------------------------------
+PATIENT VITALS
+--------------------------------------------------------------------------------
+Height        : 172 cm
+Weight        : 84 kg
+BMI           : 28.4 kg/m²
+Blood Pressure: 138/88 mmHg
+
+--------------------------------------------------------------------------------
+LIPID PROFILE
+--------------------------------------------------------------------------------
+Test                        Result      Reference Range     Unit
+Total Cholesterol           228         < 200               mg/dL   HIGH
+HDL Cholesterol             42          > 40                mg/dL   BORDERLINE
+LDL Cholesterol             158         < 130               mg/dL   HIGH
+Triglycerides               140         < 150               mg/dL   NORMAL
+Chol/HDL Ratio              5.4         < 5.0               -       HIGH
+
+--------------------------------------------------------------------------------
+BLOOD GLUCOSE
+--------------------------------------------------------------------------------
+Fasting Blood Sugar (FBS)   118         70 - 100            mg/dL   BORDERLINE
+HbA1c                       6.2         < 5.7               %       PRE-DIABETIC
+
+--------------------------------------------------------------------------------
+KIDNEY FUNCTION TEST (KFT)
+--------------------------------------------------------------------------------
+Serum Creatinine            1.3         0.6 - 1.2           mg/dL   HIGH
+Blood Urea Nitrogen (BUN)   22          7 - 20              mg/dL   BORDERLINE
+eGFR (CKD-EPI)              62          > 90                mL/min  REDUCED
+
+--------------------------------------------------------------------------------
+LIVER FUNCTION TEST (LFT)
+--------------------------------------------------------------------------------
+ALT (SGPT)                  48          7 - 40              U/L     HIGH
+AST (SGOT)                  42          10 - 40             U/L     HIGH
+GGT                         55          < 50                U/L     HIGH
+Total Bilirubin             1.1         0.2 - 1.2           mg/dL   NORMAL
+Alkaline Phosphatase        95          44 - 147            U/L     NORMAL
+
+--------------------------------------------------------------------------------
+REMARKS
+--------------------------------------------------------------------------------
+- Elevated LDL and Total Cholesterol — dietary modification recommended
+- Borderline fasting glucose and HbA1c — pre-diabetic range, lifestyle changes advised
+- Mildly elevated creatinine — monitor kidney function
+- Elevated liver enzymes (ALT, AST, GGT) — avoid alcohol, review medications
+- Blood pressure elevated — consult physician
+
+================================================================================
+                    END OF REPORT
+================================================================================

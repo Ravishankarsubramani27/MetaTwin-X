@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "metatwin-x"
+version = "1.0.0"
+description = "Multi-Organ Digital Twin for Predictive Healthcare"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+    "property: property-based tests (Hypothesis)",
+    "unit: example-based unit tests",
+    "integration: integration tests requiring model artifacts",
+    "smoke: smoke tests requiring deployment",
+]
+
+[tool.hypothesis]
+max_examples = 100
+deriving_strategies = true

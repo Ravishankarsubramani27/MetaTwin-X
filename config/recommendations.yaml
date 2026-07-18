@@ -1,0 +1,284 @@
+---
+# Recommendation catalog for MetaTwin-X
+# Each entry: organ, min_score, category, text
+# Categories: physical_activity | dietary_modification | clinical_consultation | lifestyle_habit
+
+recommendations:
+
+  # ─── HEART ────────────────────────────────────────────────────────────────
+
+  # Low tier (min_score: 0.0)
+  - organ: heart
+    min_score: 0.0
+    category: lifestyle_habit
+    text: "Avoid smoking and limit alcohol consumption to reduce cardiovascular strain."
+
+  - organ: heart
+    min_score: 0.0
+    category: lifestyle_habit
+    text: "Manage stress through mindfulness, meditation, or yoga to lower cortisol-driven cardiovascular risk."
+
+  - organ: heart
+    min_score: 0.0
+    category: physical_activity
+    text: "Incorporate at least 10 minutes of light walking after each meal to improve post-prandial glucose and lipid metabolism."
+
+  # Moderate tier (min_score: 0.3)
+  - organ: heart
+    min_score: 0.3
+    category: physical_activity
+    text: "Aim for at least 150 minutes of moderate aerobic exercise per week (brisk walking, cycling, swimming)."
+
+  - organ: heart
+    min_score: 0.3
+    category: dietary_modification
+    text: "Reduce saturated fat intake to less than 7% of total daily calories to lower LDL cholesterol."
+
+  - organ: heart
+    min_score: 0.3
+    category: lifestyle_habit
+    text: "Monitor your blood pressure at home weekly and log readings to track trends."
+
+  # Elevated tier (min_score: 0.4)
+  - organ: heart
+    min_score: 0.4
+    category: dietary_modification
+    text: "Adopt a heart-healthy diet rich in omega-3 fatty acids (fatty fish, flaxseed) and low in trans fats."
+
+  - organ: heart
+    min_score: 0.4
+    category: dietary_modification
+    text: "Increase soluble fiber intake (oats, legumes, psyllium) to help reduce LDL cholesterol by 5–10%."
+
+  - organ: heart
+    min_score: 0.4
+    category: physical_activity
+    text: "Add 2 sessions of resistance training per week to improve insulin sensitivity and lipid profiles."
+
+  # High tier (min_score: 0.6) — clinical consultation required
+  - organ: heart
+    min_score: 0.6
+    category: clinical_consultation
+    text: "Schedule a cardiovascular evaluation with a cardiologist, including ECG and stress test."
+
+  - organ: heart
+    min_score: 0.6
+    category: dietary_modification
+    text: "Work with a registered dietitian to create a personalized cardiac diet plan targeting your specific lipid abnormalities."
+
+  - organ: heart
+    min_score: 0.6
+    category: lifestyle_habit
+    text: "Consider wearing a continuous heart rate monitor to detect arrhythmias and track exercise intensity."
+
+  # Very high tier (min_score: 0.7)
+  - organ: heart
+    min_score: 0.7
+    category: clinical_consultation
+    text: "Discuss blood pressure and cholesterol medication options with your cardiovascular specialist urgently."
+
+  - organ: heart
+    min_score: 0.7
+    category: clinical_consultation
+    text: "Request a coronary artery calcium (CAC) score test to quantify atherosclerotic plaque burden."
+
+  - organ: heart
+    min_score: 0.7
+    category: lifestyle_habit
+    text: "Eliminate all tobacco products immediately — smoking cessation reduces cardiovascular risk by up to 50% within one year."
+
+  # ─── KIDNEY ───────────────────────────────────────────────────────────────
+
+  # Low tier (min_score: 0.0)
+  - organ: kidney
+    min_score: 0.0
+    category: lifestyle_habit
+    text: "Stay well-hydrated with 2–3 liters of water daily to support kidney filtration function."
+
+  - organ: kidney
+    min_score: 0.0
+    category: lifestyle_habit
+    text: "Avoid prolonged use of NSAIDs (ibuprofen, naproxen) without medical supervision, as they can impair kidney perfusion."
+
+  - organ: kidney
+    min_score: 0.0
+    category: physical_activity
+    text: "Engage in regular low-impact exercise (walking, swimming) to improve blood pressure control and kidney perfusion."
+
+  # Moderate tier (min_score: 0.3)
+  - organ: kidney
+    min_score: 0.3
+    category: dietary_modification
+    text: "Reduce sodium intake to less than 2,300 mg/day to ease kidney filtration load and lower blood pressure."
+
+  - organ: kidney
+    min_score: 0.3
+    category: dietary_modification
+    text: "Moderate protein intake to 0.8 g/kg body weight per day to reduce glomerular hyperfiltration stress."
+
+  - organ: kidney
+    min_score: 0.3
+    category: lifestyle_habit
+    text: "Monitor fasting blood glucose regularly — uncontrolled diabetes is the leading cause of chronic kidney disease."
+
+  # Elevated tier (min_score: 0.4)
+  - organ: kidney
+    min_score: 0.4
+    category: physical_activity
+    text: "Aim for 30 minutes of moderate-intensity exercise at least 5 days per week to improve metabolic control."
+
+  - organ: kidney
+    min_score: 0.4
+    category: dietary_modification
+    text: "Limit potassium-rich foods (bananas, oranges, potatoes) if serum potassium is elevated, as impaired kidneys cannot excrete excess potassium."
+
+  - organ: kidney
+    min_score: 0.4
+    category: lifestyle_habit
+    text: "Avoid contrast dye procedures without nephrology consultation if creatinine is elevated."
+
+  # High tier (min_score: 0.6) — clinical consultation required
+  - organ: kidney
+    min_score: 0.6
+    category: clinical_consultation
+    text: "Arrange a nephrology evaluation and request a comprehensive metabolic panel including eGFR and urine albumin-to-creatinine ratio."
+
+  - organ: kidney
+    min_score: 0.6
+    category: dietary_modification
+    text: "Consult a renal dietitian to design a kidney-protective diet that balances protein, phosphorus, potassium, and sodium."
+
+  - organ: kidney
+    min_score: 0.6
+    category: lifestyle_habit
+    text: "Track fluid intake and output daily; report any significant changes in urine volume or color to your nephrologist."
+
+  # Very high tier (min_score: 0.7)
+  - organ: kidney
+    min_score: 0.7
+    category: clinical_consultation
+    text: "Discuss eGFR monitoring frequency and chronic kidney disease staging with a nephrologist — early intervention can slow progression."
+
+  - organ: kidney
+    min_score: 0.7
+    category: clinical_consultation
+    text: "Request a kidney ultrasound to assess structural abnormalities, cysts, or obstruction contributing to impaired function."
+
+  - organ: kidney
+    min_score: 0.7
+    category: lifestyle_habit
+    text: "Strictly control blood pressure to below 130/80 mmHg — hypertension is the second leading cause of kidney failure."
+
+  # ─── LIVER ────────────────────────────────────────────────────────────────
+
+  # Low tier (min_score: 0.0)
+  - organ: liver
+    min_score: 0.0
+    category: lifestyle_habit
+    text: "Limit alcohol consumption to no more than 1 drink/day for women and 2 drinks/day for men to protect liver cells."
+
+  - organ: liver
+    min_score: 0.0
+    category: lifestyle_habit
+    text: "Avoid unnecessary hepatotoxic medications and supplements; always inform your doctor of all substances you take."
+
+  - organ: liver
+    min_score: 0.0
+    category: dietary_modification
+    text: "Increase intake of cruciferous vegetables (broccoli, Brussels sprouts, kale) to support liver detoxification pathways."
+
+  # Moderate tier (min_score: 0.3)
+  - organ: liver
+    min_score: 0.3
+    category: dietary_modification
+    text: "Reduce refined carbohydrate and added sugar intake to decrease hepatic fat accumulation (non-alcoholic fatty liver disease)."
+
+  - organ: liver
+    min_score: 0.3
+    category: physical_activity
+    text: "Regular aerobic exercise (5 days/week, 30 min) reduces hepatic fat content by up to 30% independent of weight loss."
+
+  - organ: liver
+    min_score: 0.3
+    category: lifestyle_habit
+    text: "Maintain a healthy weight — even a 5–10% reduction in body weight significantly improves liver enzyme levels."
+
+  # Elevated tier (min_score: 0.4)
+  - organ: liver
+    min_score: 0.4
+    category: dietary_modification
+    text: "Adopt a Mediterranean-style diet rich in olive oil, fish, legumes, and whole grains to reduce hepatic inflammation."
+
+  - organ: liver
+    min_score: 0.4
+    category: physical_activity
+    text: "Add resistance training 2–3 times per week to improve insulin sensitivity and reduce liver fat deposition."
+
+  - organ: liver
+    min_score: 0.4
+    category: lifestyle_habit
+    text: "Avoid raw or undercooked shellfish, which can harbor hepatitis A and Vibrio bacteria harmful to a compromised liver."
+
+  # High tier (min_score: 0.6) — clinical consultation required
+  - organ: liver
+    min_score: 0.6
+    category: clinical_consultation
+    text: "Arrange a hepatology evaluation including liver function tests (ALT, AST, GGT, bilirubin) and abdominal ultrasound."
+
+  - organ: liver
+    min_score: 0.6
+    category: dietary_modification
+    text: "Work with a hepatology dietitian to design a liver-protective nutrition plan that avoids hepatotoxic foods and supplements."
+
+  - organ: liver
+    min_score: 0.6
+    category: lifestyle_habit
+    text: "Abstain completely from alcohol — even moderate consumption accelerates fibrosis progression in a compromised liver."
+
+  # Very high tier (min_score: 0.7)
+  - organ: liver
+    min_score: 0.7
+    category: clinical_consultation
+    text: "Discuss liver biopsy or FibroScan with your hepatologist to assess fibrosis stage and guide treatment decisions."
+
+  - organ: liver
+    min_score: 0.7
+    category: clinical_consultation
+    text: "Request hepatitis B and C serology testing — viral hepatitis is a major driver of liver disease progression."
+
+  - organ: liver
+    min_score: 0.7
+    category: lifestyle_habit
+    text: "Ensure all vaccinations are current (hepatitis A, hepatitis B) to prevent additional viral insults to a vulnerable liver."
+
+  # ─── GENERAL ──────────────────────────────────────────────────────────────
+
+  - organ: general
+    min_score: 0.0
+    category: lifestyle_habit
+    text: "Maintain consistent sleep of 7–9 hours per night to support metabolic health, immune function, and tissue repair."
+
+  - organ: general
+    min_score: 0.0
+    category: physical_activity
+    text: "Walk at least 7,000 steps per day for broad cardiovascular, metabolic, and mental health benefits."
+
+  - organ: general
+    min_score: 0.0
+    category: dietary_modification
+    text: "Reduce ultra-processed food intake and prioritize whole foods — vegetables, fruits, legumes, whole grains, and lean proteins."
+
+  - organ: general
+    min_score: 0.2
+    category: lifestyle_habit
+    text: "Schedule an annual comprehensive health check-up including blood panel, blood pressure, and BMI assessment."
+
+  - organ: general
+    min_score: 0.2
+    category: dietary_modification
+    text: "Stay adequately hydrated — aim for 8 glasses (2 liters) of water daily to support all organ systems."
+
+  - organ: general
+    min_score: 0.3
+    category: lifestyle_habit
+    text: "Practice stress management techniques (deep breathing, progressive muscle relaxation) to reduce systemic inflammation."

@@ -1,0 +1,77 @@
+---
+# Physiological ranges for RawHealthInput validation
+# Used by DataPreprocessor.validate()
+
+age:
+  min: 1
+  max: 120
+  unit: "years"
+
+bmi:
+  min: 10.0
+  max: 70.0
+  unit: "kg/m²"
+
+systolic_bp:
+  min: 60
+  max: 250
+  unit: "mmHg"
+
+diastolic_bp:
+  min: 40
+  max: 150
+  unit: "mmHg"
+
+total_cholesterol:
+  min: 50
+  max: 600
+  unit: "mg/dL"
+
+hdl_cholesterol:
+  min: 10
+  max: 150
+  unit: "mg/dL"
+
+ldl_cholesterol:
+  min: 10
+  max: 400
+  unit: "mg/dL"
+
+fasting_glucose:
+  min: 40
+  max: 600
+  unit: "mg/dL"
+
+serum_creatinine:
+  min: 0.1
+  max: 20.0
+  unit: "mg/dL"
+
+alt_enzyme:
+  min: 1
+  max: 2000
+  unit: "U/L"
+
+ast_enzyme:
+  min: 1
+  max: 2000
+  unit: "U/L"
+
+# Optional fields
+daily_step_count:
+  min: 0
+  max: 50000
+  unit: "steps/day"
+  optional: true
+
+sleep_duration:
+  min: 0.0
+  max: 24.0
+  unit: "hours"
+  optional: true
+
+dietary_quality_score:
+  min: 1
+  max: 10
+  unit: "score"
+  optional: true
