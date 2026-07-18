@@ -12,6 +12,61 @@ MetaTwin-X is a production-quality healthcare web application that creates a per
 
 ---
 
+## 🖼 Screenshots
+
+### 🔐 Authentication & Home Dashboard
+| PIN Login (Fig 1) | Home Dashboard (Fig 2) |
+|---|---|
+| ![PIN Auth](docs/screenshots/fig1_pin_auth.png) | ![Home](docs/screenshots/fig2_home_dashboard.png) |
+
+### 🧬 Digital Twin Dashboard & Compare Mode
+| 3D Anatomy Dashboard (Fig 11) | SVG View (Fig 44) |
+|---|---|
+| ![Dashboard](docs/screenshots/fig11_dashboard.png) | ![SVG View](docs/screenshots/fig44_svg_view.png) |
+
+| 3D Compare Mode (Fig 45) | SVG Compare Mode (Fig 46) |
+|---|---|
+| ![3D Compare](docs/screenshots/fig45_3d_compare.png) | ![SVG Compare](docs/screenshots/fig46_svg_compare.png) |
+
+### ✏ Health Data Input
+| Demographics (Fig 3) | Cardiovascular (Fig 5) | Wearable (Fig 8) |
+|---|---|---|
+| ![Input](docs/screenshots/fig3_health_input.png) | ![Cardio](docs/screenshots/fig5_cardiovascular.png) | ![Wearable](docs/screenshots/fig8_smartwatch.png) |
+
+### 📄 Medical Report Upload & AI Report
+| Upload (Fig 9) | Analysis Pipeline (Fig 10) | AI Report (Fig 40) | Printable PDF (Fig 41) |
+|---|---|---|---|
+| ![Upload](docs/screenshots/fig9_report_upload.png) | ![Pipeline](docs/screenshots/fig10_pipeline.png) | ![Report](docs/screenshots/fig40_ai_report.png) | ![PDF](docs/screenshots/fig41_print_report.png) |
+
+### 🧠 Explainable AI (XAI)
+| Causal Inference (Fig 15) | Counterfactuals (Fig 16) | SHAP Dashboard (Fig 26) | What-If Simulator (Fig 27) |
+|---|---|---|---|
+| ![Causal](docs/screenshots/fig15_causal_results.png) | ![CF](docs/screenshots/fig16_counterfactuals.png) | ![SHAP](docs/screenshots/fig26_shap.png) | ![WhatIf](docs/screenshots/fig27_whatif.png) |
+
+### 🎯 RL Agent & ODE + Monte Carlo Simulation
+| RL Interventions (Fig 18) | ODE + Monte Carlo (Fig 19) |
+|---|---|
+| ![RL](docs/screenshots/fig18_rl_agent.png) | ![ODE](docs/screenshots/fig19_ode_sim.png) |
+
+### 🌍 Disease Progression
+| Health Timeline (Fig 13) | Body Heatmap (Fig 20) | Future Me (Fig 24) |
+|---|---|---|
+| ![Timeline](docs/screenshots/fig13_timeline.png) | ![Heatmap](docs/screenshots/fig20_heatmap.png) | ![FutureMe](docs/screenshots/fig24_future_me.png) |
+
+### 🤖 AI Assistant & Clinical View
+| AI Assistant (Fig 25) | Clinical Risk (Fig 28) | Doctor Dashboard (Fig 30) |
+|---|---|---|
+| ![AI](docs/screenshots/fig25_ai_assistant.png) | ![Clinical](docs/screenshots/fig28_clinical_risk.png) | ![Doctor](docs/screenshots/fig30_doctor_dashboard.png) |
+
+### 💊 Medications, Organ Graph, Sleep & Settings
+| Medication Tracker (Fig 31) | Organ Graph (Fig 32) | Sleep & Recovery (Fig 37) | Settings (Fig 42) |
+|---|---|---|---|
+| ![Meds](docs/screenshots/fig31_medications.png) | ![Graph](docs/screenshots/fig32_organ_graph.png) | ![Sleep](docs/screenshots/fig37_sleep.png) | ![Settings](docs/screenshots/fig42_settings.png) |
+
+> 📋 Full implementation screenshots (46 figures) available in the project documentation PDF.
+
+---
+
 ## ✨ Key Features
 
 | Feature | Description |
